@@ -3,6 +3,11 @@ pandas
 matplotlib
 ipython
 ipykernel
+python-dotenv
+mysql-connector-python
+pymysql
+scikit-learn
+
 
 
 #-e .
