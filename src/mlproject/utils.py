@@ -21,7 +21,7 @@ def read_sql_data():
         mydb = pymysql.connect(host=host, user=user, password=password, db=db)
         logging.info("Connection Estlabished", mydb)
         df = pd.read_sql_query("Select * from students", mydb)
-        print(df.head())
+        # print(df.head())
 
         return df
 
